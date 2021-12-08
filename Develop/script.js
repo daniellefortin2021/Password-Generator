@@ -2,7 +2,7 @@
 const confirmNumber = [0,1,2,3,4,5,6,7,8,9];
 const confirmLower = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 const confirmUpper = ["A","B","C","D","E","F","G","H","J","I","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-const confirmSpecial = array("!", "@", "#", "$", "%", "&", "*", "(", ")", "-", "_", "+", "=","`", "~",";",":","<",">","?","/","\","|"");
+const confirmSpecial = ["!", "@", "#", "$", "%", "&", "*", "(", ")", "-", "_", "+", "=","`", "~",";",":","<",">","?","/","\","|""];
 
 var passwordValue = '';
 
@@ -40,9 +40,9 @@ function generatePassword() {
       alert("You must select at least 1 type of character to generate a password.")
       return generatePassword();
     }
-  };
-
+  }
 }
+
 //literally have no idea where to go from here
 
 // Write password to the #password input
