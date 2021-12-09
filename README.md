@@ -9,6 +9,8 @@ This application generates a random password based on character criteria selecte
 
 # Preview
 
+![Screen shot of the password generator](./assets/Password-Generator-Screenshot.png)
+
 # Link 
 
 * [Deployed link] (https://daniellefortin2021.github.io/Password-Generator/)
