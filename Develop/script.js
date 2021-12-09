@@ -51,7 +51,7 @@ function generatePassword() {
       return generatePassword();
     }
 
-    //run fo loop to use confirmed information and generate a random result password
+    //run loop to use confirmed information and generate a random result password
     
     var randomPassword = "";
 
