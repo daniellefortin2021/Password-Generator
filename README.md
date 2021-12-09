@@ -25,4 +25,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Acknowledgements
 
-Major thanks to Robert Pleschke for helping me think through how to connect the arrays to the if statements when I got stuck on that part. 
+Major thanks to Robert Peschke for helping me think through how to connect the arrays to the if statements when I got stuck on that part. 
