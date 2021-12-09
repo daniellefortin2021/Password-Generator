@@ -1,5 +1,4 @@
 // user input variables
-var passwordValue = '';
 var number = [0,1,2,3,4,5,6,7,8,9];
 var lower = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var upper = ["A","B","C","D","E","F","G","H","J","I","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
@@ -43,17 +42,28 @@ function generatePassword() {
       characterArr = characterArr.concat(number);
     }
 
-    console.log("Confirm Lower:",confirmLower);
+    // console.log("Confirm Lower:",confirmLower);
     // pass an array containing all the selected characters from the prompt 
-    console.log("Character Array:",characterArr);
+   // console.log("Character Array:",characterArr);
 
     if(confirmLower === false && confirmUpper === false && confirmSpecial === false){
       alert("You must select at least 1 type of character to generate a password.")
       return generatePassword();
     }
-}
 
-//literally have no idea where to go from here
+    //run fo loop to use confirmed information and generate a random result password
+    
+    var randomPassword = "";
+
+    for(var i = 0; i < passwordLength; i++){
+      randomPassword = randomPassword + characterArr[Math.floor(Math.random() * characterArr.length)];
+      console.log(randomPassword);
+      }
+    
+    return randomPassword;
+
+  
+}
 
 // Write password to the #password input
 function writePassword() {
